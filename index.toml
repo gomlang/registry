@@ -1,0 +1,234 @@
+[modules."ecosystem::ansi"]
+git = "https://github.com/gomlang/ansi.git"
+
+[modules."ecosystem::archive"]
+git = "https://github.com/gomlang/archive.git"
+
+[modules."ecosystem::asn1"]
+git = "https://github.com/gomlang/asn1.git"
+
+[modules."ecosystem::bench"]
+git = "https://github.com/gomlang/bench.git"
+
+[modules."ecosystem::bigint"]
+git = "https://github.com/gomlang/bigint.git"
+
+[modules."ecosystem::bigmath"]
+git = "https://github.com/gomlang/bigmath.git"
+
+[modules."ecosystem::bitflags"]
+git = "https://github.com/gomlang/bitflags.git"
+
+[modules."ecosystem::cache"]
+git = "https://github.com/gomlang/cache.git"
+
+[modules."ecosystem::cli"]
+git = "https://github.com/gomlang/cli.git"
+
+[modules."ecosystem::color"]
+git = "https://github.com/gomlang/color.git"
+
+[modules."ecosystem::compress"]
+git = "https://github.com/gomlang/compress.git"
+
+[modules."ecosystem::config"]
+git = "https://github.com/gomlang/config.git"
+
+[modules."ecosystem::cron"]
+git = "https://github.com/gomlang/cron.git"
+
+[modules."ecosystem::csv"]
+git = "https://github.com/gomlang/csv.git"
+
+[modules."ecosystem::datetime"]
+git = "https://github.com/gomlang/datetime.git"
+
+[modules."ecosystem::decimal"]
+git = "https://github.com/gomlang/decimal.git"
+
+[modules."ecosystem::diagnostics"]
+git = "https://github.com/gomlang/diagnostics.git"
+
+[modules."ecosystem::diff"]
+git = "https://github.com/gomlang/diff.git"
+
+[modules."ecosystem::dwarf"]
+git = "https://github.com/gomlang/dwarf.git"
+
+[modules."ecosystem::fuzzy"]
+git = "https://github.com/gomlang/fuzzy.git"
+
+[modules."ecosystem::go_doc"]
+git = "https://github.com/gomlang/go_doc.git"
+
+[modules."ecosystem::goir"]
+git = "https://github.com/gomlang/goir.git"
+
+[modules."ecosystem::goml_stats"]
+git = "https://github.com/gomlang/goml_stats.git"
+
+[modules."ecosystem::graph"]
+git = "https://github.com/gomlang/graph.git"
+
+[modules."ecosystem::highlight"]
+git = "https://github.com/gomlang/highlight.git"
+
+[modules."ecosystem::html"]
+git = "https://github.com/gomlang/html.git"
+
+[modules."ecosystem::http"]
+git = "https://github.com/gomlang/http.git"
+
+[modules."ecosystem::ignore"]
+git = "https://github.com/gomlang/ignore.git"
+
+[modules."ecosystem::image"]
+git = "https://github.com/gomlang/image.git"
+
+[modules."ecosystem::incremental"]
+git = "https://github.com/gomlang/incremental.git"
+
+[modules."ecosystem::jwt"]
+git = "https://github.com/gomlang/jwt.git"
+
+[modules."ecosystem::lexer"]
+git = "https://github.com/gomlang/lexer.git"
+
+[modules."ecosystem::llvm"]
+git = "https://github.com/gomlang/llvm.git"
+
+[modules."ecosystem::lsp"]
+git = "https://github.com/gomlang/lsp.git"
+
+[modules."ecosystem::mail"]
+git = "https://github.com/gomlang/mail.git"
+
+[modules."ecosystem::markdown"]
+git = "https://github.com/gomlang/markdown.git"
+
+[modules."ecosystem::metrics"]
+git = "https://github.com/gomlang/metrics.git"
+
+[modules."ecosystem::mime"]
+git = "https://github.com/gomlang/mime.git"
+
+[modules."ecosystem::msgpack"]
+git = "https://github.com/gomlang/msgpack.git"
+
+[modules."ecosystem::ndarray"]
+git = "https://github.com/gomlang/ndarray.git"
+
+[modules."ecosystem::notify"]
+git = "https://github.com/gomlang/notify.git"
+
+[modules."ecosystem::oauth2"]
+git = "https://github.com/gomlang/oauth2.git"
+
+[modules."ecosystem::object"]
+git = "https://github.com/gomlang/object.git"
+
+[modules."ecosystem::parser"]
+git = "https://github.com/gomlang/parser.git"
+
+[modules."ecosystem::pipeline"]
+git = "https://github.com/gomlang/pipeline.git"
+
+[modules."ecosystem::postgres"]
+git = "https://github.com/gomlang/postgres.git"
+
+[modules."ecosystem::progress"]
+git = "https://github.com/gomlang/progress.git"
+
+[modules."ecosystem::prompt"]
+git = "https://github.com/gomlang/prompt.git"
+
+[modules."ecosystem::proptest"]
+git = "https://github.com/gomlang/proptest.git"
+
+[modules."ecosystem::protobuf"]
+git = "https://github.com/gomlang/protobuf.git"
+
+[modules."ecosystem::redis"]
+git = "https://github.com/gomlang/redis.git"
+
+[modules."ecosystem::regexp"]
+git = "https://github.com/gomlang/regexp.git"
+
+[modules."ecosystem::request"]
+git = "https://github.com/gomlang/request.git"
+
+[modules."ecosystem::rope"]
+git = "https://github.com/gomlang/rope.git"
+
+[modules."ecosystem::s3"]
+git = "https://github.com/gomlang/s3.git"
+
+[modules."ecosystem::sql"]
+git = "https://github.com/gomlang/sql.git"
+
+[modules."ecosystem::sqlite"]
+git = "https://github.com/gomlang/sqlite.git"
+
+[modules."ecosystem::syntax"]
+git = "https://github.com/gomlang/syntax.git"
+
+[modules."ecosystem::tabwriter"]
+git = "https://github.com/gomlang/tabwriter.git"
+
+[modules."ecosystem::tempfile"]
+git = "https://github.com/gomlang/tempfile.git"
+
+[modules."ecosystem::template"]
+git = "https://github.com/gomlang/template.git"
+
+[modules."ecosystem::terminal"]
+git = "https://github.com/gomlang/terminal.git"
+
+[modules."ecosystem::textproto"]
+git = "https://github.com/gomlang/textproto.git"
+
+[modules."ecosystem::tracing"]
+git = "https://github.com/gomlang/tracing.git"
+
+[modules."ecosystem::tui"]
+git = "https://github.com/gomlang/tui.git"
+
+[modules."ecosystem::tui_markdown"]
+git = "https://github.com/gomlang/tui_markdown.git"
+
+[modules."ecosystem::unicode_text"]
+git = "https://github.com/gomlang/unicode_text.git"
+
+[modules."ecosystem::uuid"]
+git = "https://github.com/gomlang/uuid.git"
+
+[modules."ecosystem::verification"]
+git = "https://github.com/gomlang/verification.git"
+
+[modules."ecosystem::walkdir"]
+git = "https://github.com/gomlang/walkdir.git"
+
+[modules."ecosystem::wasm"]
+git = "https://github.com/gomlang/wasm.git"
+
+[modules."ecosystem::web"]
+git = "https://github.com/gomlang/web.git"
+
+[modules."ecosystem::websocket"]
+git = "https://github.com/gomlang/websocket.git"
+
+[modules."ecosystem::x509"]
+git = "https://github.com/gomlang/x509.git"
+
+[modules."ecosystem::xml"]
+git = "https://github.com/gomlang/xml.git"
+
+[modules."ecosystem::yaml"]
+git = "https://github.com/gomlang/yaml.git"
+
+[modules."example::explorer"]
+git = "https://github.com/gomlang/explorer.git"
+
+[modules."gomlang::quickjs"]
+git = "https://github.com/gomlang/gomlquickjs.git"
+

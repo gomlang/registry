@@ -9,7 +9,7 @@ Use a source-built GoML toolchain at commit
 the current ecosystem verification baseline. The published GoML 0.1.59 release
 does **not** support this unversioned index; it is only the bootstrap compiler
 for that source build. See the
-[shared toolchain installation instructions](https://github.com/gomlang/verification/blob/main/ci/README.md)
+[shared toolchain installation instructions](https://github.com/gomlang/workflows/blob/main/ci/README.md)
 for the pinned bootstrap and source-build procedure.
 
 With that toolchain:
@@ -41,3 +41,7 @@ Add a module by adding an entry to `index.toml`. Its repository must contain a r
 The cache defaults to `~/.goml/cache/registry`, or `$GOML_HOME/cache/registry`. The index checkout lives there, with package checkouts under `sources/<owner>/<module>/`. Local source changes in those checkouts are not discarded by updates.
 
 Older GoML toolchains expect versioned registry entries and cannot consume this index. Existing package manifests with legacy version strings remain readable by the new toolchain during migration; those strings no longer select a version.
+
+Shared test helpers are published as `ecosystem::testkit`. The legacy
+`ecosystem::verification` entry remains available for historical consumers;
+new tests should depend on testkit. Workflow infrastructure is not a registry package.

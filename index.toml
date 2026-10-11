@@ -184,6 +184,9 @@ git = "https://github.com/gomlang/template.git"
 [modules."ecosystem::terminal"]
 git = "https://github.com/gomlang/terminal.git"
 
+[modules."ecosystem::testkit"]
+git = "https://github.com/gomlang/testkit.git"
+
 [modules."ecosystem::textproto"]
 git = "https://github.com/gomlang/textproto.git"
 

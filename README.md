@@ -4,13 +4,12 @@ This is the default central package index for GoML. It maps canonical module nam
 
 Packages currently follow their repository's default branch. There are no package versions, version constraints, release tags, or minimum-version selection in this index. Canonical names come from each repository's root `goml.toml`; a name such as `ecosystem::ansi` is independent of its GitHub organization.
 
-Use a source-built GoML toolchain at commit
-[`051c79b74497dc1f3095210b0e358990118fccfa`](https://github.com/gomlang/goml/commit/051c79b74497dc1f3095210b0e358990118fccfa),
-the current ecosystem verification baseline. The published GoML 0.1.59 release
-does **not** support this unversioned index; it is only the bootstrap compiler
-for that source build. See the
+GoML 0.1.60 supports this unversioned index. The current ecosystem verification
+baseline builds the compiler and driver from published commit
+[`840e493e08d64b65bc5422f6e826936516107f17`](https://github.com/gomlang/goml/commit/840e493e08d64b65bc5422f6e826936516107f17)
+using the checksum-pinned 0.1.60 release as stage0. See the
 [shared toolchain installation instructions](https://github.com/gomlang/workflows/blob/main/ci/README.md)
-for the pinned bootstrap and source-build procedure.
+for that source-build procedure.
 
 With that toolchain:
 
